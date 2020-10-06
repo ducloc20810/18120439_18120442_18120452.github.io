@@ -1,0 +1,118 @@
+
+
+body{
+    background-image: url(images/background.gif);
+    background-size: cover;
+}
+
+.wrapper{
+    margin-top: 10%;
+}
+.wrapper h1{
+    font-family: 'Allura', cursive;
+    font-size: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: red
+}
+.team{
+    display:flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+
+}
+
+}
+.team.member{
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+}
+.member{
+
+	width: 33.33%;
+	float: left;
+	padding-left: 0px;
+}
+.member h2{
+    color: #81c644;
+    font-size: 40px;
+    margin-top: 30px;
+}
+.member a{
+	font-size: 30px;
+	color: #FF0000;
+}
+.member img{
+	width: 270px;
+	height: 270px;
+}
+.TrangCaNhan{
+    font-family: 'Allura', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: #C7493A;
+    font-weight: bold
+}
+
+.Khung{
+    width: 1125px;
+    height: 500px;
+    margin: auto;
+    background-image: url("images/frames.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Image{
+    float: right;
+    padding-right: 150px;
+    padding-top: 90px;
+}
+
+.ThongTinDau{
+    padding-left: 150px;
+    padding-top: 130px;
+    font-size: 30px ;
+    font-weight: bold;
+    line-height: 10px;
+    color: white;
+}
+.ThongTinSau{
+    padding-left: 150px;
+    font-size: 30px ;
+    font-weight: bold;
+    line-height: 10px;
+    color: white;
+}
+
+a{
+    padding-left: 150px;
+    font-size: 30px ;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+a:link{
+    color:red;
+}
+
+a:visited{
+    color:yellow;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active{
+    color: red;
+}
+
+
